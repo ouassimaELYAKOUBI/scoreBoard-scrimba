@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-image: url("images/basketball.jpg");
+    background-size: cover;
+    font-family: "Verdana";
+
+}
+@font-face{
+    font-family: "myFont";
+    src: url("CursedTimerUlil-Aznm.ttf")
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    align-items: center;
+    width: 500px;
+    margin: 90px auto;
+    background: #1E282B;
+    color: #EEEEEE;
+    padding:50px;
+    font-size:24px
+    
+}
+
+.score{
+    display: block;
+    border: none;
+    margin:0 auto 20px auto;
+    width: 100px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: black;
+    color:#DA652F;
+    font-family: myFont;
+    font-size: 50px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    font-family: myFont;
+    font-size: 20px;
+    background: inherit;  
+    border: 1px solid #9AABD8; 
+    border-radius: 3px;
+    padding: 6px;
+    color:#9AABD8;
+    margin: 0 0 20px 0;
+}
+.button-newgame{
+    color:#EEEEEE;
+    font-family: inherit;
+    padding:8px 10px;
+
+}
